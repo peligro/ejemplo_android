@@ -10,4 +10,6 @@
 		<li>SQLite</li>
 		<li>SharePreferences</li>
 		<li>Notificaciones PUSH con FCM (Firebase Cloud Messaging)</li>
+		<li>Creación de popup</li>
+		<li>WebView con cabeceros personalizados, y manejo de javascript</li>
 	</ul>
