@@ -12,4 +12,6 @@
 		<li>Notificaciones PUSH con FCM (Firebase Cloud Messaging)</li>
 		<li>Creación de popup</li>
 		<li>WebView con cabeceros personalizados, y manejo de javascript</li>
+		<li>Creación y personalización de AppBar</li>
+		<li>Creación y personalización de ButtonBar</li>
 	</ul>
