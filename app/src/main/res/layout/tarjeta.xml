@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:cardView="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/tarjeta"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/tarjeta_alto"
+    android:fitsSystemWindows="true">
+    <!--tarjeta-->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <!--imagen-->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/tarjeta_imagen_alto"
+
+            android:scaleType="centerCrop"
+            android:id="@+id/tarjeta_imagen"
+
+            />
+        <!--/imagen-->
+        <!--textos-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="@dimen/tarjeta_imagen_alto">
+            <TextView
+                android:id="@+id/tarjeta_titulo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="César Cancino"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/tarjeta_titulo"/>
+            <TextView
+                android:id="@+id/tarjeta_detalle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="César Cancino"
+                android:textColor="@color/colorAccent"/>
+        </LinearLayout>
+        <!--/textos-->
+    </FrameLayout>
+    <!--/tarjeta-->
+</android.support.v7.widget.CardView>

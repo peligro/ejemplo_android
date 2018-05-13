@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="tarjeta_alto">200dp</dimen>
+    <dimen name="tarjeta_imagen_alto">150dp</dimen>
+    <dimen name="tarjeta_titulo">25sp</dimen>
+    <dimen name="tarjetaEsquinaRadius">4dp</dimen>
+</resources>

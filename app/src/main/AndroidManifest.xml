@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="tamila.cl.ejemploandroid">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -15,6 +18,31 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".vistas.CardViewActivity"
+            android:parentActivityName=".MainActivity">
+
+            <!-- soporte para versiones anteriores a Lolypop -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".vistas.PicassoActivity"
+            android:parentActivityName=".MainActivity">
+
+            <!-- soporte para versiones anteriores a Lolypop -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity android:name=".vistas.WebViewActivity" />
+        <activity android:name=".vistas.MapaActivity" android:parentActivityName=".MainActivity">
+            !-- soporte para versiones anteriores a Lolypop -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
         </activity>
     </application>
 
