@@ -6,7 +6,9 @@ import android.os.Bundle;
 import android.view.View;
 
 import tamila.cl.ejemploandroid.vistas.CardViewActivity;
+import tamila.cl.ejemploandroid.vistas.GPSActivity;
 import tamila.cl.ejemploandroid.vistas.MapaActivity;
+import tamila.cl.ejemploandroid.vistas.MapaGooleActivity;
 import tamila.cl.ejemploandroid.vistas.MenuDrawerActivity;
 import tamila.cl.ejemploandroid.vistas.PicassoActivity;
 import tamila.cl.ejemploandroid.vistas.RetrofitActivity;
@@ -35,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
     }
     public void boton_4(View view)
     {
-        startActivity(new Intent(this, MapaActivity.class));
+        startActivity(new Intent(this, MapaGooleActivity.class));
     }
     public void boton_5(View view)
     {
@@ -48,5 +50,13 @@ public class MainActivity extends AppCompatActivity {
     public void boton_7(View view)
     {
         startActivity(new Intent(this, MenuDrawerActivity.class));
+    }
+    public void boton_8(View view)
+    {
+        startActivity(new Intent(this, MapaActivity.class));
+    }
+    public void boton_9(View view)
+    {
+        startActivity(new Intent(this, GPSActivity.class));
     }
 }

@@ -36,14 +36,7 @@
             android:text="Ejemplo WebView"
             android:layout_gravity="center"
             android:textSize="10sp"/>
-        <Button
-            android:id="@+id/boton_4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:onClick="boton_4"
-            android:text="Ejemplo Mapa"
-            android:layout_gravity="center"
-            android:textSize="10sp"/>
+
         <Button
             android:id="@+id/boton_5"
             android:layout_width="wrap_content"
@@ -66,6 +59,30 @@
             android:layout_height="wrap_content"
             android:onClick="boton_7"
             android:text="Ejemplo Menú Drawer"
+            android:layout_gravity="center"
+            android:textSize="10sp"/>
+        <Button
+            android:id="@+id/boton_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="boton_4"
+            android:text="Ejemplo Mapa normal"
+            android:layout_gravity="center"
+            android:textSize="10sp"/>
+        <Button
+            android:id="@+id/boton_9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="boton_9"
+            android:text="Ejemplo GPS"
+            android:layout_gravity="center"
+            android:textSize="10sp"/>
+        <Button
+            android:id="@+id/boton_8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="boton_8"
+            android:text="Ejemplo Mapa artesanal"
             android:layout_gravity="center"
             android:textSize="10sp"/>
     </LinearLayout>

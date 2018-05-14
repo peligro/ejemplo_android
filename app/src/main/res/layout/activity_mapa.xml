@@ -33,12 +33,16 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:layout_marginTop="70dp">
+        android:layout_marginTop="65dp">
 
-        <WebView
+        <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:map="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/map"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:id="@+id/webview"/>
+            tools:context=".vistas.MapaGooleActivity" />
     </LinearLayout>
 
 </android.support.design.widget.CoordinatorLayout>
