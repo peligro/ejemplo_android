@@ -13,7 +13,7 @@ public class MapaActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mapa);
         showToolbar("Ejemplo Mapa",true);
-        //AIzaSyBpjbhraBlZTIrDKrDMOL0SUT1j5kjZ1FE
+        
     }
     public void showToolbar(String tittle, boolean upButton){
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
