@@ -4,4 +4,7 @@
     <dimen name="tarjeta_imagen_alto">150dp</dimen>
     <dimen name="tarjeta_titulo">25sp</dimen>
     <dimen name="tarjetaEsquinaRadius">4dp</dimen>
+    <dimen name="_16">16dp</dimen>
+    <dimen name="_8">8dp</dimen>
+    <dimen name="_1">1dp</dimen>
 </resources>

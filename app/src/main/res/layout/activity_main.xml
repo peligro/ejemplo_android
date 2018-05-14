@@ -52,6 +52,22 @@
             android:text="Ejemplo Volley"
             android:layout_gravity="center"
             android:textSize="10sp"/>
+        <Button
+            android:id="@+id/boton_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="boton_6"
+            android:text="Ejemplo Retrofit"
+            android:layout_gravity="center"
+            android:textSize="10sp"/>
+        <Button
+            android:id="@+id/boton_7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="boton_7"
+            android:text="Ejemplo Menú Drawer"
+            android:layout_gravity="center"
+            android:textSize="10sp"/>
     </LinearLayout>
 
 

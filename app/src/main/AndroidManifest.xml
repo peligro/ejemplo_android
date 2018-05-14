@@ -37,8 +37,39 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
-        <activity android:name=".vistas.WebViewActivity" />
-        <activity android:name=".vistas.MapaActivity" android:parentActivityName=".MainActivity">
+        <activity
+            android:name=".vistas.WebViewActivity"
+            android:parentActivityName=".MainActivity">
+            !-- soporte para versiones anteriores a Lolypop -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".vistas.MapaActivity"
+            android:parentActivityName=".MainActivity">
+            !-- soporte para versiones anteriores a Lolypop -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".vistas.MenuDrawerActivity"
+            android:parentActivityName=".MainActivity">
+            !-- soporte para versiones anteriores a Lolypop -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".vistas.RetrofitActivity"
+            android:parentActivityName=".MainActivity">
+            !-- soporte para versiones anteriores a Lolypop -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity android:name=".vistas.VolleyActivity" android:parentActivityName=".MainActivity">
             !-- soporte para versiones anteriores a Lolypop -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"

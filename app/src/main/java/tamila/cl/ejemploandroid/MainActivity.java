@@ -7,7 +7,10 @@ import android.view.View;
 
 import tamila.cl.ejemploandroid.vistas.CardViewActivity;
 import tamila.cl.ejemploandroid.vistas.MapaActivity;
+import tamila.cl.ejemploandroid.vistas.MenuDrawerActivity;
 import tamila.cl.ejemploandroid.vistas.PicassoActivity;
+import tamila.cl.ejemploandroid.vistas.RetrofitActivity;
+import tamila.cl.ejemploandroid.vistas.VolleyActivity;
 import tamila.cl.ejemploandroid.vistas.WebViewActivity;
 
 public class MainActivity extends AppCompatActivity {
@@ -16,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
     }
     public void boton_1(View view)
     {
@@ -35,6 +39,14 @@ public class MainActivity extends AppCompatActivity {
     }
     public void boton_5(View view)
     {
-        startActivity(new Intent(this, PicassoActivity.class));
+        startActivity(new Intent(this, VolleyActivity.class));
+    }
+    public void boton_6(View view)
+    {
+        startActivity(new Intent(this, RetrofitActivity.class));
+    }
+    public void boton_7(View view)
+    {
+        startActivity(new Intent(this, MenuDrawerActivity.class));
     }
 }

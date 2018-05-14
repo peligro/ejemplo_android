@@ -6,14 +6,13 @@ import android.support.v7.widget.Toolbar;
 
 import tamila.cl.ejemploandroid.R;
 
-public class MapaActivity extends AppCompatActivity {
+public class VolleyActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_mapa);
-        showToolbar("Ejemplo Mapa",true);
-        //AIzaSyBpjbhraBlZTIrDKrDMOL0SUT1j5kjZ1FE
+        setContentView(R.layout.activity_volley);
+        showToolbar("Ejemplo Volley",true);
     }
     public void showToolbar(String tittle, boolean upButton){
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
