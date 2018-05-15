@@ -13,6 +13,7 @@ import tamila.cl.ejemploandroid.vistas.MenuDrawerActivity;
 import tamila.cl.ejemploandroid.vistas.PicassoActivity;
 import tamila.cl.ejemploandroid.vistas.RetrofitActivity;
 import tamila.cl.ejemploandroid.vistas.VolleyActivity;
+import tamila.cl.ejemploandroid.vistas.VolleySimpleActivity;
 import tamila.cl.ejemploandroid.vistas.WebViewActivity;
 
 public class MainActivity extends AppCompatActivity {
@@ -58,5 +59,9 @@ public class MainActivity extends AppCompatActivity {
     public void boton_9(View view)
     {
         startActivity(new Intent(this, GPSActivity.class));
+    }
+    public void boton_10(View view)
+    {
+        startActivity(new Intent(this, VolleySimpleActivity.class));
     }
 }

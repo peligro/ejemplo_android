@@ -20,6 +20,7 @@
             android:text="cardView y RecyclerView"
             android:layout_gravity="center"
             android:textSize="10sp"/>
+
         <Button
             android:id="@+id/boton_2"
             android:layout_width="wrap_content"
@@ -36,13 +37,20 @@
             android:text="Ejemplo WebView"
             android:layout_gravity="center"
             android:textSize="10sp"/>
-
+        <Button
+            android:id="@+id/boton_10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="boton_10"
+            android:text="Ejemplo Volley StringRequest con Header"
+            android:layout_gravity="center"
+            android:textSize="10sp"/>
         <Button
             android:id="@+id/boton_5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:onClick="boton_5"
-            android:text="Ejemplo Volley"
+            android:text="Ejemplo Volley JsonArrayRequest con Header"
             android:layout_gravity="center"
             android:textSize="10sp"/>
         <Button
