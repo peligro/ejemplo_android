@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:orientation="horizontal">
+    <TextView
+        android:layout_width="15dp"
+        android:layout_height="match_parent"
+        android:text="1"
+        android:textStyle="bold"
+        android:gravity="center_vertical"
+        android:id="@+id/id"
+        android:layout_marginLeft="10dp"/>
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="match_parent"
+        android:text="César"
+        android:textStyle="bold"
+        android:gravity="center_vertical"
+        android:id="@+id/nombre"/>
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="match_parent"
+        android:text="yo@cesarcancino.com"
+        android:textStyle="bold"
+        android:gravity="center_vertical"
+        android:id="@+id/correo"/>
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="match_parent"
+        android:id="@+id/foto"/>
+</LinearLayout>

@@ -30,6 +30,7 @@ public class VolleySimpleActivity extends AppCompatActivity {
         showToolbar("Volley Simple",true);
         showVolley();
     }
+
     public void showVolley()
     {
         final TextView texto_volley=(TextView)findViewById(R.id.texto_volley);

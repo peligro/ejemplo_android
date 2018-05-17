@@ -39,10 +39,13 @@
         android:layout_marginTop="70dp"
         android:layout_marginLeft="10dp">
 
-       <TextView
-           android:layout_width="wrap_content"
-           android:layout_height="wrap_content"
-           android:text="Retrofit"/>
+        <!--RecycleView-->
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/TarjetaRecycleView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+        <!--/RecycleView-->
     </LinearLayout>
 
 

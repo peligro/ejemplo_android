@@ -57,25 +57,25 @@ public class VolleyActivity extends AppCompatActivity {
                                 int count=0;
                                 while(count<response.length())
                                 {
-                                    try
-                                    {
-                                        JSONObject jsonObject=response.getJSONObject(count);
-                                        NoticiasApiModel noticiasApiModel=new NoticiasApiModel
-                                                (
-                                                        jsonObject.getInt("id"),
-                                                        jsonObject.getString("titulo"),
-                                                        jsonObject.getString("bajada"),
-                                                        jsonObject.getString("fecha"),
-                                                        jsonObject.getString("foto")
-                                                );
+                                        try
+                                        {
+                                            JSONObject jsonObject=response.getJSONObject(count);
+                                            NoticiasApiModel noticiasApiModel=new NoticiasApiModel
+                                                    (
+                                                            jsonObject.getInt("id"),
+                                                            jsonObject.getString("titulo"),
+                                                            jsonObject.getString("bajada"),
+                                                            jsonObject.getString("fecha"),
+                                                            jsonObject.getString("foto")
+                                                    );
 
-                                        arrayList.add(noticiasApiModel);
-                                        TarjetasApiAdapter tarjetasApiAdapter=new TarjetasApiAdapter(arrayList,VolleyActivity.this);
-                                        recyclerView.setAdapter(tarjetasApiAdapter);
-                                    count++;
-                                } catch (JSONException e) {
-                                    e.printStackTrace();
-                                }
+                                            arrayList.add(noticiasApiModel);
+                                            TarjetasApiAdapter tarjetasApiAdapter=new TarjetasApiAdapter(arrayList,VolleyActivity.this);
+                                            recyclerView.setAdapter(tarjetasApiAdapter);
+                                        count++;
+                                    } catch (JSONException e) {
+                                        e.printStackTrace();
+                                    }
                                 }
                             }
                         }, new Response.ErrorListener() {
