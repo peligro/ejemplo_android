@@ -14,5 +14,8 @@
 		<li>WebView con cabeceros personalizados, y manejo de javascript</li>
 		<li>Creación y personalización de AppBar</li>
 		<li>Creación y personalización de ButtonBar</li>
-	<li>Visualización de imágenes con librería Picasso</li>
+		<li>Visualización de imágenes con librería Picasso</li>
+		<li>Visualización de imágenes con librería Glide</li>
+		<li>Formularios</li>
+		<li>Alert Dialog</li>
 	</ul>
