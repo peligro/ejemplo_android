@@ -107,13 +107,29 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
-        <activity android:name=".vistas.CardViewApiActivity" android:parentActivityName=".MainActivity">
+        <activity
+            android:name=".vistas.CardViewApiActivity"
+            android:parentActivityName=".MainActivity">
             !-- soporte para versiones anteriores a Lolypop -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
-        <activity android:name=".vistas.VolleySimpleActivity" android:parentActivityName=".MainActivity">
+        <activity
+            android:name=".vistas.VolleySimpleActivity"
+            android:parentActivityName=".MainActivity">
+            !-- soporte para versiones anteriores a Lolypop -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity android:name=".vistas.FormularioActivity" android:parentActivityName=".MainActivity">
+            !-- soporte para versiones anteriores a Lolypop -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity android:name=".vistas.AlertDialogActivity" android:parentActivityName=".MainActivity">
             !-- soporte para versiones anteriores a Lolypop -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"

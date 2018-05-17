@@ -16,6 +16,8 @@
 		<li>Creación y personalización de ButtonBar</li>
 		<li>Visualización de imágenes con librería Picasso</li>
 		<li>Visualización de imágenes con librería Glide</li>
-		<li>Formularios</li>
-		<li>Alert Dialog</li>
+		<li>Formularios y validación (Ejemplo validar RUT chileno)</li>
+		<li>Alert Dialog por defecto</li>
+		<li>Alert Dialog personalizado</li>
+		<li>ProgressDialog</li>
 	</ul>

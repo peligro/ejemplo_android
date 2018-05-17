@@ -19,7 +19,8 @@
             android:onClick="boton_1"
             android:text="cardView y RecyclerView"
             android:layout_gravity="center"
-            android:textSize="10sp"/>
+            android:textSize="10sp"
+            />
 
         <Button
             android:id="@+id/boton_2"
@@ -91,6 +92,22 @@
             android:layout_height="wrap_content"
             android:onClick="boton_8"
             android:text="Ejemplo Mapa artesanal"
+            android:layout_gravity="center"
+            android:textSize="10sp"/>
+        <Button
+            android:id="@+id/boton_11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="boton_11"
+            android:text="Alert Dialog"
+            android:layout_gravity="center"
+            android:textSize="10sp"/>
+        <Button
+            android:id="@+id/boton_12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="boton_12"
+            android:text="Ejemplo Formulario y validación de RUT"
             android:layout_gravity="center"
             android:textSize="10sp"/>
     </LinearLayout>

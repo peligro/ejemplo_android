@@ -6,4 +6,5 @@
     <color name="blanco">#FFFFFF</color>
     <color name="gris">#f0f0f0</color>
     <color name="drawer_fondo">#222222</color>
+    <color name="rojo">#ff0000</color>
 </resources>

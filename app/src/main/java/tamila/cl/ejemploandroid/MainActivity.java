@@ -5,7 +5,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
+import tamila.cl.ejemploandroid.vistas.AlertDialogActivity;
 import tamila.cl.ejemploandroid.vistas.CardViewActivity;
+import tamila.cl.ejemploandroid.vistas.FormularioActivity;
 import tamila.cl.ejemploandroid.vistas.GPSActivity;
 import tamila.cl.ejemploandroid.vistas.MapaActivity;
 import tamila.cl.ejemploandroid.vistas.MapaGooleActivity;
@@ -63,5 +65,13 @@ public class MainActivity extends AppCompatActivity {
     public void boton_10(View view)
     {
         startActivity(new Intent(this, VolleySimpleActivity.class));
+    }
+    public void boton_11(View view)
+    {
+        startActivity(new Intent(this, AlertDialogActivity.class));
+    }
+    public void boton_12(View view)
+    {
+        startActivity(new Intent(this, FormularioActivity.class));
     }
 }
